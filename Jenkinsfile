@@ -40,7 +40,7 @@ pipeline {
             steps {
                 echo 'Deploying...'
                 // Aquí puedes agregar tus comandos de despliegue, por ejemplo:
-                sh 'kubectl apply -f deployment.yaml'
+                //sh 'kubectl apply -f deployment.yaml'
             }
         }
     }
