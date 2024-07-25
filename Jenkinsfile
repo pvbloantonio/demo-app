@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Default Maven'
+        maven 'demo-app'
     }
 
     stages {
